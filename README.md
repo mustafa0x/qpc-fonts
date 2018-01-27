@@ -1,11 +1,11 @@
 ### خطوط مجمع الملك فهد لطباعة المصحف
 ### King Fahad Qur'an Printing Complex Fonts
 
-These mushaf fonts have been collected from:
- - `http://qurancomplex.gov.sa/TTF/` + name of file
- - [Windows installer](http://qurancomplex.gov.sa/Downloads/Fonts/AllPartsFonts.zip)
+The _mushaf_ fonts can be retrieved from one of the following:
+ - `http://qurancomplex.gov.sa/TTF/` + name of the file,
+ - or the [Windows installer](http://qurancomplex.gov.sa/Downloads/Fonts/AllPartsFonts.zip).
 
-While the _various_ fonts are from [http://fonts.qurancomplex.gov.sa](http://fonts.qurancomplex.gov.sa).
+While the _various_ fonts are located at [http://fonts.qurancomplex.gov.sa](http://fonts.qurancomplex.gov.sa).
 
 #### Usage
 
@@ -13,15 +13,14 @@ While the _various_ fonts are from [http://fonts.qurancomplex.gov.sa](http://fon
 ```css
 @font-face {
   font-family: 'Uthman Naskh';
-  font-weight: 500;
   src: local('KFGQPC Uthman Taha Naskh'),
        url(https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1%20Ver10.woff2) format('woff2'),
        url(https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff/UthmanTN1%20Ver10.woff) format('woff');
 }
 @font-face {
   font-family: 'Uthman Naskh';
-  font-weight: 700;
-  src: local('KFGQPC Uthman Taha Naskh'),
+  font-weight: bold;
+  src: local('KFGQPC Uthman Taha Naskh Bold'), local('KFGQPCUthmanTahaNaskh-Bold'),
        url(https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1B%20Ver10.woff2) format('woff2'),
        url(https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff/UthmanTN1B%20Ver10.woff) format('woff');
 }
